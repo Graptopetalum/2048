@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048game</title>
+    <!-- 未使用虚拟地址时 -->
+    <!-- <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="favicon.ico" rel="shortcut icon">
+    <script src="./js/index.js"></script>
+    <script src="./js/basis.js"></script>
+    <script src="./js/animation.js"></script> -->
+    <!-- 使用虚拟地址时 -->
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <link href="favicon.ico" rel="shortcut icon">
+    <script src="/static/js/index.js"></script>
+    <script src="/static/js/basis.js"></script>
+    <script src="/static/js/animation.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="score">
+            score
+            <br>
+            <span>0</span>
+        </div>
+        <a class="newGame" href="/static/index.html">New Game</a>
+        <!--<a class="newGame" href="index.html">New Game</a>  -->
+        <div class="bottomBox">
+            <!-- 创建16个box的快捷方法
+            .box$*16 -->
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+            <div class="box"><span></span></div>
+        </div>
+    </div>
+    <div class="gameOver">游戏结束<a href="/static/index.html">重新开始游戏</a></div>
+    <!-- <div class="gameOver">游戏结束<a href="index.html">重新开始游戏</a></div> -->
+</body>
+</html>
